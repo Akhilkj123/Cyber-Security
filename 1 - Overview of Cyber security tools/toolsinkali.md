@@ -178,3 +178,9 @@
  - It provides a custom kernel, which enables users to run Kali Linux on their mobile device without the need for a separate computer.
  - It allows users to create a wireless access point on their mobile device and conduct various wireless attacks, including Man-in-the-Middle (MITM) attacks.
  - It includes support for HID keyboard attacks, which allows users to simulate keyboard input and execute commands on a target system.
+ 
+ 30. WEEVELY
+ - It is a command-line tool in Kali Linux that is used for post-exploitation tasks such as remote administration of a compromised system.
+ - It uses a web-based backdoor that is typically hidden within a legitimate web page or application.
+ - It also provides several built-in modules that can be used to automate certain tasks, such as password cracking, file downloading/uploading etc.
+ - It can be used in conjunction with other Kali tools, such as Metasploit and Nmap, to perform more complex attacks and post-exploitation tasks.
