@@ -1,16 +1,15 @@
 1. NMAP
 - Nmap is a tool used for sniffing network. 
-- It can be sued for penetration testing and network testing. 
+- It can be used for penetration testing and network testing. 
 - It’s main goal is to solve network issues in a company by sniffing a network or network analysis.
-- It can be used to solve security vulnerabilities by a administrator.
+- It is a open-source tool that is used for network exploration, security scanning, and vulnerability detection.
 - Nmap can be used to discover hosts and services on a network, as well as identifying potential vulnerabilities and security risks.
 
 2. FIERCE
 - It is a tool in kali linux used for DNS reconnaissance(to obtain information regarding the DNS servers and the DNS records).
 - It is designed to locate non-contiguous IP space(spaces which cannot be summarized) and hostnames against specified domains.
 - It is a tool used for performing reconnaissance for penetration testing or vulnerability analysis.
-- It is important to use Fierce ethically and with permission from the domain owner.
-- Fierce works by querying DNS servers and attempting to discover all DNS servers and subdomains associated with a specified domain. 
+- It works by querying DNS servers and attempting to discover all DNS servers and subdomains associated with a specified domain. 
 
 3. NIKTO
 - It is a web server vulnerability scanner that is included in Kali Linux.
@@ -22,13 +21,12 @@
 4. WPScan
 - It is a command-line tool included in Kali Linux that is designed to scan WordPress websites for vulnerabilities.
 - It is a widely used tool for WordPress security assessments and penetration testing.
-- It is important to use WPScan ethically and with permission from the website owner, as misuse of this tool can lead to serious legal and ethical consequences.
 - It can also perform brute-force attacks to try to guess the login credentials for the WordPress admin panel.
 
 5. SKIPFISH
 - It is a web application security testing tool that is used in Kali Linux for security professionals and enthusiasts.
 - It is designed to identify security vulnerabilities in web applications by performing a comprehensive scan of the target website.
-- Skipfish works by sending a large number of HTTP requests to the target website, analyzing the responses, and attempting to identify any security flaws that may be present.
+- It works by sending a large number of HTTP requests to the target website, analyzing the responses, and attempting to identify any security flaws that may be present.
 - It can used for automatic fingerprinting of web application frameworks, and the ability to generate detailed reports of its findings. 
 -
 6. AIRCRACK-NG
@@ -54,7 +52,7 @@
 -
 9. METSPLOIT FRAMEWORK
 - It is a powerful penetration testing tool that is included in Kali Linux.
-- It has a range of features, including support for multiple payloads and exploit modules, customizable exploit options, and the ability to automate common tasks and workflows.
+- It has a range of features, including support for multiple payloads and exploit modules, customizable exploit options, the ability to automate common tasks and workflows.
 - It is also used by attackers and malicious actors to gain unauthorized access to systems and data.
 - It is also important to ensure that any data captured during testing is kept secure and used only for legitimate purposes.
 -
