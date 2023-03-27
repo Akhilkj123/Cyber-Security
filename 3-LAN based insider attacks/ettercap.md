@@ -17,4 +17,15 @@
 - When the user sends a DNS request, the attacker which performed the ARP Poisoning on the user redirects the DNS request to a DNS request created by the attacker which causes the user to open a site preferred by the user.
 - Using ettercap, we can do DNS Spoofing using ARP Poisoning.
 ![image](https://user-images.githubusercontent.com/65653010/227776384-56f860d7-60b9-4511-92fe-48eae765e8e3.png)
-  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**4) Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection.** 
+- When a user attempts to connect to a secure website using SSLstrip, the tool will intercept the request and alter it so that it appears to be a request for an unsecured HTTP connection.
+-  This will cause the user's browser to communicate with the website over an unencrypted connection, rather than the secure HTTPS connection it intended to use. 
+-  This can allow an attacker to intercept and read any data being transmitted between the user's browser and the website, including sensitive information such as login credentials and credit card details.
+-  Now using Ettercap we will add the ip of the victim to attackers list.
+![image](https://user-images.githubusercontent.com/65653010/227987258-c8a273c9-8026-443e-acb3-f3a03dbd801f.png)
+- When the attacker uses Ettercap to do SSLstrip, the secured version of the site get cancelled and the site gets blocked.
+![image](https://user-images.githubusercontent.com/65653010/227987427-1833420c-b3eb-4860-b1c2-1eb903ba8f5e.png)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**5) Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.**
+
