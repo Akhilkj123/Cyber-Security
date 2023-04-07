@@ -1,6 +1,18 @@
-**1. Learn the basic working of Wi-Fi and its types with various types of attacks on it.**
+**1.  Learn the basic working of Wi-Fi and its types with various types of attacks on it.**
 - **Wi-Fi** is a wireless technology that enables devices to connect to the internet or communicate with each other without the need for physical cables. It works by using radio waves to transmit and receive data between devices and a wireless access point (WAP) or wireless router.
    Some common types of attacks on Wi-Fi networks:
 -  **Rogue Access Points:** Attackers can create rogue access points to trick users into connecting to them instead of the legitimate access point. Once connected, the attacker can intercept sensitive information such as login credentials or inject malware.
 - **Password Cracking:** Attackers can use password cracking tools to guess or brute-force passwords to gain access to Wi-Fi networks.
 - **Denial-of-Service (DoS) Attacks:** In a DoS attack, the attacker floods the Wi-Fi network with traffic to overload it, causing it to crash or become unavailable to legitimate users.
+**Eavesdropping:** Attackers can use tools to monitor Wi-Fi traffic to intercept and steal sensitive information such as login credentials or credit card details.
+
+**2. Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.**
+- **Kismet** - Kismet is a popular open-source wireless network detector, sniffer, and intrusion detection system that is included in the Kali Linux operating system. It is used for finding and analyzing wireless network traffic, identifying Wi-Fi networks, detecting wireless devices, and analyzing wireless protocols.
+- Start monitor-mode wlan0: airmon-ng start wlan0
+
+![image](https://user-images.githubusercontent.com/65653010/230620620-9d51c71a-d128-4865-8c40-0abd98cb9723.png)
+
+- Start kismet using: kismet -c wlan0
+
+![image](https://user-images.githubusercontent.com/65653010/230624975-f0a7bd91-ae89-47b5-ae00-0bc44097b7d7.png)
+
