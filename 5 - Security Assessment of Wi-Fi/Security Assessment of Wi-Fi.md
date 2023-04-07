@@ -16,3 +16,7 @@
 
 ![image](https://user-images.githubusercontent.com/65653010/230624975-f0a7bd91-ae89-47b5-ae00-0bc44097b7d7.png)
 
+- Result of the Wi-fi hotspots scanned using kismet
+
+![image](https://user-images.githubusercontent.com/65653010/230625372-a3dbb08f-8b3d-468a-96b5-65dffb9e9f85.png)
+![image](https://user-images.githubusercontent.com/65653010/230625623-f5001a31-e435-43c5-a3d2-726bfa4c7495.png)
