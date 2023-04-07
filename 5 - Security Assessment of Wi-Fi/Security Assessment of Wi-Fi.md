@@ -5,7 +5,7 @@
 - **Password Cracking:** Attackers can use password cracking tools to guess or brute-force passwords to gain access to Wi-Fi networks.
 - **Denial-of-Service (DoS) Attacks:** In a DoS attack, the attacker floods the Wi-Fi network with traffic to overload it, causing it to crash or become unavailable to legitimate users.
 **Eavesdropping:** Attackers can use tools to monitor Wi-Fi traffic to intercept and steal sensitive information such as login credentials or credit card details.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 **2. Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.**
 - **Kismet** - Kismet is a popular open-source wireless network detector, sniffer, and intrusion detection system that is included in the Kali Linux operating system. It is used for finding and analyzing wireless network traffic, identifying Wi-Fi networks, detecting wireless devices, and analyzing wireless protocols.
 - Start monitor-mode wlan0: airmon-ng start wlan0
@@ -20,3 +20,25 @@
 
 ![image](https://user-images.githubusercontent.com/65653010/230625372-a3dbb08f-8b3d-468a-96b5-65dffb9e9f85.png)
 ![image](https://user-images.githubusercontent.com/65653010/230625623-f5001a31-e435-43c5-a3d2-726bfa4c7495.png)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ **3. Create an Access point with any Wi-Fi encryption standard and start testingthe security of that connectionusing any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited). Try to capture the 4-wayhandshake using these methods.**
+ - Start monitor-mode wlan0: airmon-ng start wlan0
+
+![image](https://user-images.githubusercontent.com/65653010/230620620-9d51c71a-d128-4865-8c40-0abd98cb9723.png)
+
+- Let us monitor the network using: airodump-ng wlan0
+- 
+![image](https://user-images.githubusercontent.com/65653010/230626001-affa1361-9162-4ff2-8722-d04d9129b206.png)
+
+- Select a certain network using SSID : airodump-ng --bssid (bssid of the certain network) -c (channel) --write (name of file) wlan0
+
+![image](https://user-images.githubusercontent.com/65653010/230626832-7fe857b1-51ec-47ce-bf71-13e43227d94b.png)
+
+**4. After capturing the required filesfortesting, usedictionarygeneration and password cracking tools to crack the Wi-Fi password.** 
+
+ a. You must use an existing word file to crack the password.
+ 
+ b. Also you have to create your dictionaryfilefor cracking the passwords.
+ 
+c. Keep 3 different types of passwordsforyour Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionaryword with some numbers, and complex can be generated from any password generatoronline.**
