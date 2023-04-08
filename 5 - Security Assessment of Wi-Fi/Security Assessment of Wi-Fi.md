@@ -39,7 +39,7 @@
 ![image](https://user-images.githubusercontent.com/65653010/230620620-9d51c71a-d128-4865-8c40-0abd98cb9723.png)
 
 - Let us monitor the network using: airodump-ng wlan0
-- 
+
 ![image](https://user-images.githubusercontent.com/65653010/230626001-affa1361-9162-4ff2-8722-d04d9129b206.png)
 
 - Select a certain network using SSID : airodump-ng --bssid (bssid of the certain network) -c (channel) --write (name of file) wlan0
@@ -67,3 +67,12 @@ c. Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium
 
 ![image](https://user-images.githubusercontent.com/65653010/230719408-f6383d6e-3dbe-40de-bd8d-08f6bbaec9bb.png)
 
+**6. Learn the protocol level working of WPA3 and how it differs from WPA2**
+
+ **WPA3** is the latest version of the Wi-Fi Protected Access (WPA) security protocol used in wireless networks. It was designed to address the weaknesses found in the previous versions, WPA and WPA2. The WPA3 protocol operates on a higher level of the OSI model, specifically at the data link layer (layer 2) and network layer (layer 3). The protocol provides more robust encryption and authentication mechanisms to protect wireless networks from attacks and unauthorized access.
+- Authentication: The WPA3 protocol uses a new authentication mechanism called Simultaneous Authentication of Equals (SAE), also known as Dragonfly. 
+- Encryption: WPA3 uses a new encryption algorithm called the 256-bit Galois/Counter Mode Protocol (GCMP-256) for data encryption. 
+- Brute-Force Protection: WPA3 also includes brute-force protection, which makes it more difficult for attackers to guess the passphrase through a brute-force attack. 
+
+- **WPA3** is the next generation of WPA and has better security features. It protects against weak passwords that can be cracked relatively easily via guessing.
+- 128-bit encryption in WPA3-Personal mode (192-bit in WPA3-Enterprise) and forward secrecy. WPA3 also replaces the Pre-Shared Key (PSK) exchange with Simultaneous Authentication of Equals, a more secure way to do initial key exchange
