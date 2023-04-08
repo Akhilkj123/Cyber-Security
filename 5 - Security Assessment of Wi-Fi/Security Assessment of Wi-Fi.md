@@ -7,6 +7,12 @@
 **Eavesdropping:** Attackers can use tools to monitor Wi-Fi traffic to intercept and steal sensitive information such as login credentials or credit card details.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 **2. Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.**
+- **Inssider** - Inssider is a wireless network scanner tool that can be found in Kali Linux. It allows users to scan and analyze wireless networks in the vicinity, displaying information such as the network's name, signal strength, and encryption method.
+
+![image](https://user-images.githubusercontent.com/65653010/230718774-19056bc7-bd5b-4dea-83c6-09b615e34175.png)
+
+![image](https://user-images.githubusercontent.com/65653010/230718790-787ed1cb-b656-42f7-9aba-bba0a697933e.png)
+
 - **Kismet** - Kismet is a popular open-source wireless network detector, sniffer, and intrusion detection system that is included in the Kali Linux operating system. It is used for finding and analyzing wireless network traffic, identifying Wi-Fi networks, detecting wireless devices, and analyzing wireless protocols.
 - Start monitor-mode wlan0: airmon-ng start wlan0
 
