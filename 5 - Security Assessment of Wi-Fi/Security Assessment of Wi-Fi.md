@@ -7,6 +7,11 @@
 **Eavesdropping:** Attackers can use tools to monitor Wi-Fi traffic to intercept and steal sensitive information such as login credentials or credit card details.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 **2. Perform Wi-Fi fingerprinting using Wigile, Inssider, and Kismet.**
+- **Wiggle** - Wiggle is a network scanning tool that can be found in Kali Linux. It is a tool that helps in the detection and discovery of wireless networks. 
+
+
+![image](https://user-images.githubusercontent.com/65653010/230719514-a0f32306-3ca3-4218-95e7-b3e427b0656c.png)
+
 - **Inssider** - Inssider is a wireless network scanner tool that can be found in Kali Linux. It allows users to scan and analyze wireless networks in the vicinity, displaying information such as the network's name, signal strength, and encryption method.
 
 ![image](https://user-images.githubusercontent.com/65653010/230718774-19056bc7-bd5b-4dea-83c6-09b615e34175.png)
@@ -41,10 +46,24 @@
 
 ![image](https://user-images.githubusercontent.com/65653010/230626832-7fe857b1-51ec-47ce-bf71-13e43227d94b.png)
 
+- Captured the 4-way handshake using Wireshark
+
+![image](https://user-images.githubusercontent.com/65653010/230719476-ed6b56b3-3302-4a9b-99ee-eac4d2bf8860.png)
+
+
 **4. After capturing the required filesfortesting, usedictionarygeneration and password cracking tools to crack the Wi-Fi password.** 
 
  a. You must use an existing word file to crack the password.
  
  b. Also you have to create your dictionaryfilefor cracking the passwords.
  
-c. Keep 3 different types of passwordsforyour Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionaryword with some numbers, and complex can be generated from any password generatoronline.**
+c. Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator on  line.
+
+- Now trying to crack the tough password 
+
+![image](https://user-images.githubusercontent.com/65653010/230719269-f8b8aa29-b45a-4006-9b39-7b1cd45d5e1f.png)
+
+- Now trying to crack the easy password
+
+![image](https://user-images.githubusercontent.com/65653010/230719408-f6383d6e-3dbe-40de-bd8d-08f6bbaec9bb.png)
+
