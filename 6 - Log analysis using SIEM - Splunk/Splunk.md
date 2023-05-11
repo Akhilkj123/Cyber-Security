@@ -20,12 +20,31 @@ Splunk Architecture
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e79ad500-d5c7-49e7-9c0a-f7f3213f849e)
 
 - Then give configure the splunk forwarder with the splunk enterprise
-![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/9c7db8c2-0732-4a5e-bb35-289bef547ae6)
-
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/11add3e6-db41-49de-a650-2dc3d79a5040)
 - Now go to Splunk Enterprise and under apps click manage apps
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3380ad6b-f4b2-4039-88a9-211679220813)
 
 - If the status of Splunk Forwarder is disabled, make it enabled. Then go to Edit Properties and make visible to be 'yes'
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/83c771d2-cf4c-4134-97a6-de40290ecf10)
+
+- Now we send a log to splunk-enterprise 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4882d981-f5bf-4bae-8dbc-9b8fbe422778)
+
+### 2. Run Splunk >> Forwarder can be in the same system or another system (user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.
+### • Run any network and port scanning commands from the host to the target machine. Run at least 5 to 8 commands. (If required, any tools can also be used).
+### • Use the search section in Splunk to analyze the firewall logs to find the log of the above process and the exact IP from where the scan was performed. HINT: Use the “stats” command.
+### • Analyze the log file and create an alert for any further similar activities.
+- Now we perform a nmap-scan and save it as a log file
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8181b83e-9aa6-4085-8508-0dbd71ca461e)
+
+- Now we send the nmap logs to the splunk-enterprise 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/0d481bc0-203e-4bbf-ae55-952cda5f9f0e)
+
+- Now as a third person, if we search any scans in splunk we get
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/588dfe61-4bed-416b-acc2-6efc66dbc538)
+
+
+
+
 
 
