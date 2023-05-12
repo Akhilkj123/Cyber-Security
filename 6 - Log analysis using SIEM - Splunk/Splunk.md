@@ -43,6 +43,18 @@ Splunk Architecture
 - Now as a third person, if we search any scans in splunk we get
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/588dfe61-4bed-416b-acc2-6efc66dbc538)
 
+- Another method of search query if the third person knows the host name he/she can use 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ad811d16-5d2c-4313-bd46-346fb486918d)
+
+- or If the index value is known to the person
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/07021f1d-fcc2-4823-b502-f244de93dc1e)
+
+### 3. Run Splunk >> Forwarder can be in the same system or another system(user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.
+### • Perform any communication using unencrypted traffic.
+### • Use the Splunk search section to check the firewall logs to analyzewhich application usesunencrypted data.
+### • Analyze the log file and create an alert for any further similar activities.
+
+
 
 
 
