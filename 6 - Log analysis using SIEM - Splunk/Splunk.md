@@ -40,10 +40,10 @@ Splunk Architecture
 - Now we send the nmap logs to the splunk-enterprise 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/0d481bc0-203e-4bbf-ae55-952cda5f9f0e)
 
-- Now as a third person, if we search any scans in splunk we get
+- Now as a third person who only knows that a vulnerable scan has took place in it, we perform the command 'scan' in splunk 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/588dfe61-4bed-416b-acc2-6efc66dbc538)
 
-- Another method of search query if the third person knows the host name he/she can use 
+- Another method of search query, if the third person knows the host name he/she can use 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ad811d16-5d2c-4313-bd46-346fb486918d)
 
 - or If the index value is known to the person
@@ -53,7 +53,23 @@ Splunk Architecture
 ### • Perform any communication using unencrypted traffic.
 ### • Use the Splunk search section to check the firewall logs to analyzewhich application usesunencrypted data.
 ### • Analyze the log file and create an alert for any further similar activities.
+- First we visit a http site
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/fccdb215-afba-447b-94d8-e37165142deb)
 
+- Now we add the location of the default logs of kali i.e /var/log into splunk
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/1ebb39d7-02df-4b17-8ac0-e598138622c5)
+
+- Now as a third person who only knowst that an unencrypted web traffic is being performed, we give a search of a http request in splunk 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e147093c-4e70-403e-abf3-0a270eceb71f)
+
+- The result gives the browsed site
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/6183e7ad-a7d4-4665-a45b-3b5a791fb20d)
+
+- As we know, we perform a get request to access a website we can also give the following command
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/eaac059a-55b0-4935-a1a8-7f332a6a70fa)
+
+- It also gives the result
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ad587ea6-25ad-4bd9-9494-f5ca82e19422)
 
 
 
