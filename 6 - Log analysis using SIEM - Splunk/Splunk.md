@@ -71,6 +71,33 @@ Splunk Architecture
 - It also gives the result
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ad587ea6-25ad-4bd9-9494-f5ca82e19422)
 
+### 4. Run Splunk >> Forwarder can be in the same system or another system (user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise. Download malware from this site https://dasmalwerk.eu/ . CAUTION: THEY ARE REAL MALWARE. USE IN AN ISOLATED ENVIRONMENT. >> Run the malware in your target system.
+### • After running your malware file, either it is stopped by your antivirus or not using the search section, find the antivirus log for the past 1 hour.
+### • Run different malware files again in the same target system and use the search section  to find the time range between the previous and current malware file execution. HINT: Use the “stats” command.
+### • Then save that search as an alert to show a notification when the same type happens again.
+
+### 5. Run Splunk >> Forwarder can be in the same system or another system (user’s convenience)  >>Make sure the logs are indexing in the Splunk enterprise.
+### • Logout of the target system and perform multiple failed attempts. Then use the search section to filter out the failed attempt logs. Hint: Use the “stats” command.
+### • Analyze the log file and create an alert for any further similar activities.
+
+- We logout of the system and conduct multiple failed attempts.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/eaf99c8c-7fce-4502-ae43-7916a24a0469)
+
+- Now if we go to our Splunk Enterprise and enter the host name
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/65bd9923-1ef8-447c-b77d-4bddd7501ec8)
+
+- Now as a third person if we know only an authentication failure has happened, so the command can be
+ 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/be8edce5-58d4-4e4b-974b-5dc172e05221)
+
+- or it can also be
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/c1e41184-30cb-48b1-ae06-f62b1d0fa58c)
+
+
+
 
 
 
