@@ -34,8 +34,8 @@ g) How many connections were observed from IP 238.163.231.224, excluding the New
 
 - Now excluding New York
 - 96 - 48 = 48
- 
 
+## Task - 6
 
 
 
