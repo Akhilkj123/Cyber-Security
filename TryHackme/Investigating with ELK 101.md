@@ -16,6 +16,26 @@
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8f990adc-170a-4a5d-8a37-8dfe29d681b3)
 
+## KQL(Kibana Query Language)
+- search query language used to search the ingested logs/documents in the elasticsearch.
+
+
+With KQL, we can search for the logs in two different ways.
+
+### a) Free text Search
+- allows users to search for the logs based on the text-only.
+
+####  i)Wild Card
+- KQL allows the wild card * to match parts of the term/word.
+
+#### ii) Logical Operators (AND | OR | NOT)
+ - 1- OR Operator
+- 2- AND Operator
+- 3- NOT Operator
+
+### b) Field-based search
+
+- we will provide the field name and the value we are looking for in the logs. 
 
 
 
