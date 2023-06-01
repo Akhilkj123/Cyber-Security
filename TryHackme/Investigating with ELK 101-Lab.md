@@ -36,6 +36,17 @@ g) How many connections were observed from IP 238.163.231.224, excluding the New
 - 96 - 48 = 48
 
 ## Task - 6
+a) Create a search query to filter out the logs from Source_Country as the United States and show logs from User James or Albert. How many records were returned?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/354d7027-885e-41e2-98d5-d98fc1816677)
+
+b) As User Johny Brown was terminated on 1st January 2022, create a search query to determine how many times a VPN connection was observed after his termination.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/fc480bce-b6f5-45b0-b257-d4a29b91f046)
+
+
+
+
 
 
 
