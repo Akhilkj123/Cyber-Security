@@ -22,6 +22,14 @@ e) What is the full URL of the C2 to which the infected host is connected?
 
 f) A file was accessed on the filesharing site. What is the name of the file accessed?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/cd9de660-e492-4268-bf9c-788480ebffff)
+
+g) The file contains a secret code with the format THM{_____}.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/791f9f13-36d7-4bcb-b2f3-18eff76d5333)
+
+
+
 
 
 
