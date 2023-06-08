@@ -1,8 +1,4 @@
 
-##
-
-
-
 ## Task - 2: Main Components of Metasploit 
 
 ### Auxiliary
@@ -24,6 +20,27 @@
 - Exploits, neatly organized by target system.
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ba6455f2-1e32-4d36-bfb0-582a805acc78)
+
+### NOPs(No Operation)
+- They are represented in the Intel x86 CPU family they are represented with 0x90, following which the CPU will do nothing for one cycle.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/fd56e460-5791-4e92-bf20-4664725d5bd4)
+
+### Payloads
+- Exploits will leverage a vulnerability on the target system, but to achieve the desired result, we will need a payload. 
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/f8aa3e28-6f2e-4f53-84d1-76affa1c5bec)
+
+- **Adapters:** An adapter wraps single payloads to convert them into different formats. For example, a normal single payload can be wrapped inside a Powershell adapter, which will make a single powershell command that will execute the payload.
+- **Singles:** Self-contained payloads (add user, launch notepad.exe, etc.) that do not need to download an additional component to run.
+- **Stagers:** Responsible for setting up a connection channel between Metasploit and the target system. Useful when working with staged payloads. “Staged payloads” will first upload a stager on the target system then download the rest of the payload (stage). 
+- **Stages:** Downloaded by the stager. This will allow you to use larger sized payloads.
+
+### Post
+- Post modules will be useful on the final stage of the penetration testing process listed above, post-exploitation.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/eae96a70-aa9d-40e7-88d7-9c4887b0fa6c)
+
 
 a) What is the name of the code taking advantage of a flaw on the target system?
 - exploit
@@ -58,9 +75,10 @@ b) Who provided the auxiliary/scanner/ssh/ssh_login module?
 - ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/9e2a039b-1b37-4ea8-b7f1-4ef2d96b00ad)
 
 ## Task - 4: Working with modules
+- We can set a host and exploit by using
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/596b2bc5-17b8-444c-8b8b-a9fff574f17c)
 
-## Task - 5: Working with modules
 
 a) How would you set the LPORT value to 6666?
 
