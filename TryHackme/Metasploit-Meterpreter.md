@@ -2,8 +2,25 @@
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/7d0a895b-7db9-475d-b5c8-03dbcd526b85)
 
+## Task - 3: Meterpreter Commands 
+- Core commands in metasploit
 
-## Task - 4: 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e3d07955-5041-42aa-841e-2e868db38777)
+
+- File system commands
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4103c023-ad20-48bc-a493-c179258fe581)
+
+- Networking commands
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/a0a9a816-0a6e-444e-8eff-5658243a852b)
+
+- System commands
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/cb3482a7-9e3b-477f-8602-dff367e94327)
+
+- 
+## Task - 4: Post-Exploitation with Meterpreter
 - help commands helps to get all the commands present in metasploit
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/a9665a4b-2f3a-4d0b-9783-5c08cb425811)
@@ -28,10 +45,20 @@
 ## Task - 5: Post-Exploitation Challenge
 a) What is the computer name?
 
-- ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3471c8f6-ccd2-42f9-953f-8fd2051348b5)
+- the command sysinfo helps in getting the OS information 
 
-b) 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3471c8f6-ccd2-42f9-953f-8fd2051348b5)
 
+b) What is the target domain?
+- The domain name is mentioned the result of sysinfo command
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4e08abaa-e6fa-49ab-b5d4-c6e4521910f4)
+
+c) What is the name of the share likely created by the user?
+
+- We go the enum_share folder
+- let us the set the session
+- So we get the name of the share created by the user  
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/2b52d347-47c8-487b-bdfe-19bd1ad99b36)
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/1afa3c5b-57df-475c-9d1f-4d4edb6aebf2)
