@@ -59,21 +59,42 @@ c) What is the name of the share likely created by the user?
 - We go the enum_share folder
 - let us the set the session
 - So we get the name of the share created by the user  
+
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/2b52d347-47c8-487b-bdfe-19bd1ad99b36)
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/1afa3c5b-57df-475c-9d1f-4d4edb6aebf2)
+
+d) What is the NTLM hash of the jchambers user?
+- We check the processes of the system
+- From that, we select the lsass.exe file and migrate it 
+- We get the result of the hash by hashdumping it.
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/109b163e-08ad-492e-9caa-1ad114d92282)
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4a8647f8-4a11-4ec2-ae7d-7b9959a16fad)
 
+e) What is the cleartext password of the jchambers user?
+- The cleartext password can be obtained by converting the hash into normal text in an online platform
+
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/503af26f-4920-402a-824e-c70da0b0a416)
+
+f) Where is the "secrets.txt"  file located?
+- We use search -f '*'.txt command to search the file
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/70d6b9bc-aa79-4309-8661-0f9767ecfd93)
 
+g) What is the Twitter password revealed in the "secrets.txt" file?
+- This is obtained by going into the folder and displaying the content
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e22dabd8-a853-4824-95b1-60f49026aaa1)
+
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/25c75532-c892-4b0f-b34a-a21b87b47e99)
 
+h) Where is the "realsecret.txt" file located?
+
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/5a4e9231-d7da-4367-aaf4-de2b3a959a41)
+
+i) What is the real secret?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8efb2aca-a3aa-4ece-ac21-f57a7f7e1e36)
 
