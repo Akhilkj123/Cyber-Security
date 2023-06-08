@@ -79,6 +79,10 @@ b) Who provided the auxiliary/scanner/ssh/ssh_login module?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/596b2bc5-17b8-444c-8b8b-a9fff574f17c)
 
+- We can see sessions by 
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/d9bded8c-a123-4e0a-973b-eb0e337fabc7)
+
 
 a) How would you set the LPORT value to 6666?
 
