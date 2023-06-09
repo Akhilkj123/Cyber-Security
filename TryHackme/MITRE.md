@@ -66,4 +66,17 @@ b) What tactic has an ID of TA0003?
 
 c) What is the name of the library that is a collection of Zeek (BRO) scripts?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/033b1576-119c-4573-a522-96f4cd166a8d)
+
+d) What is the name of the technique for running executables with the same hash and different names?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/a8964476-0201-45e7-a8f0-051642d32b1c)
+
+e) Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/64c540fd-5354-4c2c-bb98-6e49f4a0ca95)
+
+
+
+
 
