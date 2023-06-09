@@ -76,6 +76,17 @@ e) Examine CAR-2013-05-004, besides Implementations, what additional information
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/64c540fd-5354-4c2c-bb98-6e49f4a0ca95)
 
+## Task-5:  MITRE Engage
+- MITRE Engage is a framework for planning and discussing adversary engagement operations that empowers you to engage your adversaries and achieve your cybersecurity goals.
+
+a) Under Prepare, what is ID SAC0002?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e2bb18f2-3b37-4c1f-b256-1b69da1e8afa)
+
+b) What is the name of the resource to aid you with the engagement activity from the previous question?
+
+
+
 
 
 
