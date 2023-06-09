@@ -85,9 +85,32 @@ a) Under Prepare, what is ID SAC0002?
 
 b) What is the name of the resource to aid you with the engagement activity from the previous question?
 
+- A risk assessment that models organizational strengths and weaknesses
 
+## Task-6: MITRE D3FEND
 
+a) What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown?
+- data obfuscation
 
+b) In D3FEND Inferred Relationships, what does the ATT&CK technique from the previous question produce?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/bfb11e35-2ece-4175-b5c6-f971da5a4af3)
 
+## Task-7: ATT&CK® Emulation Plans
+
+a) In Phase 1 for the APT3 Emulation Plan, what is listed first?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8fadfada-0cf1-4b5e-a212-95e464c90e24)
+
+b) Under Persistence, what binary was replaced with cmd.exe?
+- sethc.exe
+
+c) Examining APT29, what  C2 frameworks are listed in Scenario 1 Infrastructure? (format: tool1,tool2)
+- Pupy,Metasploit Framework
+
+d) What C2 framework is listed in Scenario 2 Infrastructure?
+- Poshc2
+
+e) Examine the emulation plan for Sandworm. What webshell is used for Scenario 1? Check MITRE ATT&CK for the Software ID for the webshell. What is the id?
+- p.a.s.,s0598
 
