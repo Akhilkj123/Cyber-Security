@@ -98,7 +98,5 @@ i) What is the real secret?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8efb2aca-a3aa-4ece-ac21-f57a7f7e1e36)
 
-## Task-6: MITRE D3FEND
 
-a) What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown?
-- 
+
