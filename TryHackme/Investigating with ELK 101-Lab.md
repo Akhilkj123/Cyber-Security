@@ -54,22 +54,35 @@ g) How many connections were observed from IP 238.163.231.224, excluding the New
 
 ## Task - 6 KQL Overview
 a) Create a search query to filter out the logs from Source_Country as the United States and show logs from User James or Albert. How many records were returned?
+- The search query to filter the souce_country, username includes the following
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/113d1d6a-315b-44f0-9515-f87f097d6971)
+- When we select these filters we get output as
+- 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/354d7027-885e-41e2-98d5-d98fc1816677)
 
 b) As User Johny Brown was terminated on 1st January 2022, create a search query to determine how many times a VPN connection was observed after his termination.
+- In this we give the username filter as johny brown and the time to be from 1st January 2022
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/507ab27b-12c5-42ce-ad2b-3e02a9f1a223)
+- This gives the result
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/fc480bce-b6f5-45b0-b257-d4a29b91f046)
 
 ## Task - 7 Create Visualizations
 
 a) Which user was observed with the greatest number of failed attempts? 
+- In the filter search field, we give a filter action whose value is to be 'failed'
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/0fcf70ce-806e-47ed-acd9-4c83119b2e70)
+- Now we go the filter by type and set it as Username to get the result 
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/db89bb5c-1f8c-4bf3-bedc-d63a8e4fb8da)
 
 b) How many wrong VPN connection attempts were observed in January?
-
-![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3a5d793a-d661-4be9-9375-a21440c52f53)
+- In this we proceed with the filter action with a value true and set the time from Jan 1st to Jan 31st which the number of hits.
+ 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/b96526da-56e3-4475-b874-c82cf886bed2)
 
 ## Task - 8 Creating Dashboards
 a) Create the dashboard containing the available visualizations.
