@@ -15,7 +15,11 @@
 ## Task-3: Sigma Rule Syntax
 
 ### Sigma Syntax
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/79297df8-5a59-46f4-9f0d-82d8a53a884e)
 - **Title** - Names the rule based on what it is supposed to detect. This should be short and clear.
+
+
 - **ID** - A globally unique identifier mainly used by the developers of Sigma to maintain the order of identification for the rules submitted to the public repository, found in UUID format. 
 - **Status** - Describes the stage in which the rule maturity is at while in use. There are five declared statuses that you can use:
 
@@ -25,3 +29,7 @@
 - Deprecated: The rule has been replaced and would no longer yield accurate results. Therelated field is used to create associations between the current rule and one that has been deprecated.
 - Unsupported: The rule is not usable in its current state (unique correlation log, homemade fields).
 
+- **Description:** Provides more context about the rule and its intended purpose. With the rule, you can be as verbose as possible on the malicious activity you intend to detect.
+
+
+- 
