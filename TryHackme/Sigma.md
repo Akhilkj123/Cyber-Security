@@ -31,5 +31,30 @@
 
 - **Description:** Provides more context about the rule and its intended purpose. With the rule, you can be as verbose as possible on the malicious activity you intend to detect.
 
+a) Which status level could lead to false results or be noisy, but could also identify interesting events?
+- experimental
 
-- 
+b) The rule detection comprises two main elements: __ and condition expressions.
+- search identifiers
+
+c) What two data structures are used for the search identifiers?
+- lists and maps
+
+## Task-4: Rule Writing & Conversion
+- First we deploy the machine and go to the elastic server and log into the server with the given credentials
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/9d6e575e-a8da-4e00-85e9-309d15765a8b)
+
+a) What command line tool is used to convert Sigma rules?
+- sigmac
+
+b) At what time was the AnyDesk installation event created? [MMM DD, YYYY @ HH:MM:SS] 
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/523f322d-a2ce-4bdd-9517-dc3e7723adab)
+
+c) What version of AnyDesk was installed? 
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/482ca91e-a18a-481a-9627-a203a9dfb49f)
+
+
+
