@@ -70,6 +70,28 @@ g) How many connections were observed from IP 238.163.231.224, excluding the New
 - 96 - 48 = 48
 
 ## Task - 6 KQL Overview
+
+## KQL(Kibana Query Language)
+- search query language used to search the ingested logs/documents in the elasticsearch.
+
+With KQL, we can search for the logs in two different ways.
+
+### a) Free text Search
+- allows users to search for the logs based on the text-only.
+
+####  i)Wild Card
+- KQL allows the wild card * to match parts of the term/word.
+
+#### ii) Logical Operators (AND | OR | NOT)
+ - 1- OR Operator
+- 2- AND Operator
+- 3- NOT Operator
+
+### b) Field-based search
+
+- we will provide the field name and the value we are looking for in the logs. 
+
+
 a) Create a search query to filter out the logs from Source_Country as the United States and show logs from User James or Albert. How many records were returned?
 - The search query to filter the souce_country, username includes the following
 
