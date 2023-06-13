@@ -24,4 +24,4 @@ e)
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e94f042b-ce5f-4d25-aaa7-c11a18bf9c36)
 
 f) Who is the owner of the Originating IP? (Do not include the "." in your answer.)
-- First 
+- First we 
