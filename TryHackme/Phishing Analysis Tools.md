@@ -72,4 +72,53 @@ e) What is the shortened URL? Defang the URL.
 
 ## Task-8: Phishing Case 2
 
+a) What does AnyRun classify this email as?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/b586c49c-4719-45a2-874f-d63c65e86845)
+
+b) What is the name of the PDF file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/dfb6badc-8e67-44cc-8e40-05aa52396934)
+
+c) What is the SHA 256 hash for the PDF file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/d011fec7-7011-4dbb-961e-ab674b5c20fd)
+
+d) What two IP addresses are classified as malicious? Defang the IP addresses. (answer: IP_ADDR,IP_ADDR)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ff4fa4f7-f856-466a-9b0a-b8d132fe15b6)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ff21c849-f5ba-4f8c-a990-048089858036)
+
+e) What Windows process was flagged as Potentially Bad Traffic?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/1f002ee0-0245-49f3-9a95-01b7c2d3bdbc)
+
+
+## Task-9: Phishing Case 3
+
+a) What is this analysis classified as?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/5f03d1a7-72b6-4a36-a659-dc487b506178)
+
+b) What is the name of the Excel file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/43123b60-5b0a-4e80-ae48-013fa5e349c3)
+
+c) What is the SHA 256 hash for the file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/f80749c0-1a14-4dcf-8c50-30c4e2265108)
+
+d) What domains are listed as malicious? Defang the URLs & submit answers in alphabetical order.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/fa416831-e50b-4e01-86ce-e2bc785ac5b4)
+
+e) What IP addresses are listed as malicious? Defang the IP addresses & submit answers from lowest to highest.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/51ce79a5-866c-4461-908f-267589bd0f31)
+
+f) What vulnerability does this malicious attachment attempt to exploit?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/8c1ff619-17fd-4c8b-bf52-e70e865066ea)
+
 
