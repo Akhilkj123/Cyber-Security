@@ -54,9 +54,11 @@ j) What is the SHA256 hash of the file attachment?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4460cb52-62b8-4d25-937e-87a16417098a)
 
+k) What is the attachments file size? (Don't forget to add "KB" to your answer, NUM KB)
+- 400.26 KiB
 
-
-
+l) What is the actual file extension of the attachment?
+- RAR
 
 
 
