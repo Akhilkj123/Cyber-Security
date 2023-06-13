@@ -55,7 +55,8 @@ c) In the attached virtual machine, view the information in email2.txt and recon
 
 
 
-## 
+## Task-6: Types of Phishing
+
 a) What trusted entity is this email masquerading as?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ccdc26b2-e39b-4588-9317-2ed84b774d84)
@@ -64,4 +65,10 @@ b) What is the sender's email?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/59a4f3d1-df7b-4e97-a59c-79570e2cc6f5)
 
+c) What is the subject line? 
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/6356cc66-0532-4887-9962-732aeb634f81)
+
+d) What is the URL link for - CLICK HERE? (Enter the defanged URL)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/5a867b60-8396-48eb-b703-13c8d3a59923)
