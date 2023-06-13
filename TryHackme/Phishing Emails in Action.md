@@ -42,3 +42,10 @@ Here are some quick observations about this email sample:
 
 a) What is the root domain for each URL? Defang the URL. 
 - devret[.]xyz
+
+## Task-4: Select your email provider to view document
+
+a) This email sample used the names of a few major companies, their products, and logos such as OneDrive and Adobe. What other company name was used in this phishing email?
+- Citrix
+
+
