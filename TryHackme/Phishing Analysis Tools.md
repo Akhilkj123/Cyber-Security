@@ -48,7 +48,28 @@ instrumentation, Execution Graphs, Localized Internet Anonymization and many mor
 
 ## Task-7: Phishing Case 1
 
+a) What brand was this email tailored to impersonate?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/2448f456-13c7-49c8-b31a-1a68b16bdb81)
 
+b) What is the From email address?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/6b31ee0d-1169-4f2d-aeb1-146ad7e0b4de)
+
+c) What is the originating IP? Defang the IP address.  
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/9a4a62f2-79b4-4cc3-bf65-528efb790307)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/03de04ce-2c6e-4072-9ffa-5b347db96fed)
+
+d) From what you can gather, what do you think will be a domain of interest? Defang the domain.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/2217c8a0-7930-46c8-aca1-a27bed6e70bc)
+
+e) What is the shortened URL? Defang the URL.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/f9baa48c-92ba-42d0-9074-3e57d1912a4d)
+
+## Task-8: Phishing Case 2
 
 
