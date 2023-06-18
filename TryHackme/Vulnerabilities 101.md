@@ -57,4 +57,12 @@ c) If you wanted to use a framework that was free and open-source, what framewor
 - Exploit-DB retains exploits for software and applications stored under the name, author and version of the software or application.
 - We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) that are used to exploit a specific vulnerability.
 
-  
+a) Using NVD, how many CVEs were submitted in July 2021?
+- 1585
+
+b) Who is the author of Exploit-DB?
+- Offensive Security
+
+## Task 5: An Example of Finding a Vulnerability
+a) Follow along with the showcase of exploiting ACKme's application to the end to retrieve a flag. What is this flag?
+- THM{ACKME_ENGAGEMENT}
