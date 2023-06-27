@@ -24,4 +24,4 @@ The highlight services include:
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e13dbf26-d891-4559-8bc5-6d4f991824a5)
 
 ### Analysis
-- 
+- The Analysis tab contains the input entities in reports analysed and associated external references. Reports are central to OpenCTI as knowledge on threats and events are extracted and processed. 
