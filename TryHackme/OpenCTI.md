@@ -64,3 +64,7 @@ c) Within the Activities category, which tab would house the Indicators?
 - **Indicators Tab:** Provides information on IOC identified for all the threats and entities.
 - **Data Tab:** Contains the files uploaded or generated for export that are related to the entity
 
+a) 
+
+
+
