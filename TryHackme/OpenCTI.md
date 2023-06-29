@@ -64,7 +64,11 @@ c) Within the Activities category, which tab would house the Indicators?
 - **Indicators Tab:** Provides information on IOC identified for all the threats and entities.
 - **Data Tab:** Contains the files uploaded or generated for export that are related to the entity
 
-a) 
+a) What Intrusion sets are associated with the Cobalt Strike malware with a Good confidence level? (Intrusion1, Intrusion2)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3afe0692-606d-45c2-aea3-1f93c0a520f3)
+
+
 
 
 
