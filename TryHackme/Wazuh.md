@@ -77,4 +77,51 @@ a) What is the name of the tool that we can use to monitor system events?
 - Sysmon
 
 b) What standard application on Windows do these system events get recorded to?
-- 
+- Event viewer
+
+## Task 8: Collecting Linux Logs with Wazuh
+
+a) What is the full file path to the rules located on a Wazuh management server?
+- /var/ossec/ruleset/rules
+
+## Task 9: Auditing Commands on Linux with Wazuh
+
+a) What application do we use on Linux to monitor events such as command execution?
+- auditd
+
+ b) What is the full path & filename for where the aforementioned application stores rules?
+ - /etc/audit/rules.d/audit.rules
+
+## Task 10: Wazuh API
+
+a) What is the name of the standard Linux tool that we can use to make requests to  the Wazuh management server?
+- curl
+
+b) What HTTP method would we use to retrieve information for a Wazuh management server API?
+- GET
+
+c) What HTTP method would we use to perform an action on a Wazuh management server API?
+- PUT
+
+d) Navigate to Wazuh's API console.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/cf642f6b-8a23-45ea-a09d-1d83ca446920)
+
+e) Use the API console to find the Wazuh server's version.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e475469d-7606-4196-9737-aaca721f2165)
+
+## Task 11: Generating Reports with Wazuh
+
+a) Use Wazuh's "Report" feature to generate a report of an agent.
+- First we scroll to the security events and generate a report
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/d4ac5c79-d71d-41b4-ab38-5f87288c3009)
+
+- Then we go the Reporting section in the Management section. to see the result
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/bbdf3247-6adf-40dc-b257-6e9ba684cb03)
+
+b) What is the name of the agent that has generated the most alerts?
+
+- Agent001
