@@ -61,14 +61,46 @@ c) Within the Activities category, which tab would house the Indicators?
 - **Overview Tab:** Provides the general information about an entity being analysed and investigated.
 - **Knowledge Tab:** Presents linked information associated with the entity selected.
 - **Analysis Tab:** Provides the reports where the identified entry has been seen.
-- **Indicators Tab:** Provides information on IOC identified for all the threats and entities.
+- **Indicators Tab:** Provides inf)mation on IOC identified for all the threats and entities.
 - **Data Tab:** Contains the files uploaded or generated for export that are related to the entity
 
 a) What Intrusion sets are associated with the Cobalt Strike malware with a Good confidence level? (Intrusion1, Intrusion2)
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/3afe0692-606d-45c2-aea3-1f93c0a520f3)
 
+b) Who is the author of the entity?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/bf906db6-c813-4f8f-bc2a-6bd59ef9b60b)
+
+## Task 6: Investigative Scenario
+
+a) What is the earliest date recorded related to CaddyWiper?  Format: YYYY/MM/DD
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/9849ee93-fa7f-493d-8e00-944521d74d43)
+
+b) Which Attack technique is used by the malware for execution?
+- Under Arsenal tab Attack Patterns gives the result
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/dacefe8b-0aff-448a-a519-b218649c6f48)
+
+c) How many malware relations are linked to this Attack technique?
+- now filter the Native API and under the knowledge tab
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/bd0207d5-2277-4f48-b5c0-5b8010e1b2cb)
+
+d) Which 3 tools were used by the Attack Technique in 2016? (Ans: Tool1, Tool2, Tool3)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/37fdb61f-c256-4dc6-8077-7bd52fc6364a)
+
+e) What country is APT37 associated with?
+- Search APT37 and go to the intrsuion sets, under the overview result is present.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/6febd896-83f3-4e22-9094-73365feaff0d)
+
+f) Which Attack techniques are used by the group for initial access? (Ans: Technique1, Technique2)
+ - Under the Global Kill chain in the Knowledge tab the result shows.
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/505fda88-ebdd-467d-9541-58e12dc94d72)
 
 
 
