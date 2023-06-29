@@ -97,6 +97,9 @@ g) Does Loki detect this file as suspicious/malicious or benign?
 
 h) What is the name and version of this web shell?
 
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/5743764a-67ea-4447-bca3-15d7f0ba576f)
+
+
 ## Task 9: Creating Yara rules with yarGen
 
 - We are going to update yarGen, you'll see the following message at the end of the output.
@@ -106,6 +109,15 @@ a) From within the root of the suspicious files directory, what command would yo
 - yara 1ndex.php file2/file2.yar
 
 b) Did Yara rule flag file 2? (Yay/Nay)
+- yay
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/ccd2833b-abdd-4fc7-869b-f8155e8d490c)
+
+c) Test the Yara rule with Loki, does it flag file 2?
+- yay
+
+d) What is the name of the variable for the string that it matched on?
+- zepto
+
 
 ## Task 10: Valhalla
 - Valhalla is an online Yara feed created and hosted by Nextron-Systems.
