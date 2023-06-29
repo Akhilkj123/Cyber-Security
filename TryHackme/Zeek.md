@@ -58,3 +58,9 @@ b) Investigate the dns.log file. What is the number of unique DNS queries?
 c) Investigate the conn.log file. What is the longest connection duration?
 
 ![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/d203aa0e-948c-4605-86c6-6679dd67b998)
+
+## Task 4: CLI Kung-Fu Recall: Processing Zeek Logs
+- Graphical User Interfaces (GUI) are handy and good for accomplishing tasks and processing information quickly.
+- There are multiple advantages of GUIs, especially when processing the information visually.
+
+
