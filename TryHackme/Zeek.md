@@ -129,4 +129,69 @@ d) Investigate the dhcp.log file. What is the identified domain value?
 e) Investigate the dns.log file. What is the number of unique queries?
 - 1109
 
-## 
+## Task 7: Zeek Scripts | Scripts and Signatures
+### Scripts 101 | Write Basic Scripts
+- Scripts contain operators, types, attributes, declarations and statements, and directives.
+
+### Scripts 201 | Use Scripts and Signatures Together
+- Here we use scripts collaboratively with other scripts and signatures to get one step closer to event correlation.
+
+a) Each exercise has a folder. Ensure you are in the right directory to find the pcap file and accompanying files. Desktop/Exercise-Files/TASK-7
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/31545251-c8d7-4ef0-8585-343a37f5ab8a)
+
+b) Investigate the sample.pcap file with 103.zeek script. Investigate the terminal output. What is the number of the detected new connections?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/87e567ca-5794-4ce5-845b-1aa24c190d6a)
+
+c) Investigate the ftp.pcap file with ftp-admin.sig signature and  201.zeek script. Investigate the signatures.log file. What is the number of signature hits?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/a76792a1-6d50-4917-b499-4961d31f1b2f)
+
+d) Investigate the signatures.log file. What is the total number of "administrator" username detections?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/558c42eb-4d1b-44c3-8ed8-de6f9f2c7f46)
+
+e) Investigate the ftp.pcap file with all local scripts, and investigate the loaded_scripts.log file. What is the total number of loaded scripts?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/f600cf99-00b3-4e7f-bd12-261434b52c2d)
+
+f) Investigate the ftp-brute.pcap file with "/opt/zeek/share/zeek/policy/protocols/ftp/detect-bruteforcing.zeek" script. Investigate the notice.log file. What is the total number of brute-force detections?
+- 2
+
+## Task 8: Zeek Scripts | Frameworks
+
+a) Investigate the case1.pcap file with intelligence-demo.zeek script. Investigate the intel.log file. Look at the second finding, where was the intel info found? 
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/09b6f439-87a1-4002-918d-db29065c9170)
+
+b) Investigate the http.log file. What is the name of the downloaded .exe file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/4d63b82b-b390-4805-9ac1-5e18ca1e6658)
+
+c) Investigate the case1.pcap file with hash-demo.zeek script. Investigate the files.log file. What is the MD5 hash of the downloaded .exe file?
+
+- cc28e40b46237ab6d5282199ef78c464
+
+d) Investigate the case1.pcap file with file-extract-demo.zeek script. Investigate the "extract_files" folder. Review the contents of the text file. What is written in the file?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/b10de6f3-daa9-4d61-94ab-a3a5a6784402)
+
+## Task 9: Zeek Scripts | Packages
+
+a) Investigate the http.pcap file with the zeek-sniffpass module. Investigate the notice.log file. Which username has more module hits?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/a6fee6a3-6459-4496-afca-58dc2791e70b)
+
+b) Investigate the case2.pcap file with geoip-conn module. Investigate the conn.log file. What is the name of the identified City?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e0366df6-58cf-4ae2-934e-28fb0e4947f7)
+
+c) Which IP address is associated with the identified City?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/12970102-d1e4-4744-a971-20b150751c10)
+
+d) Investigate the case2.pcap file with sumstats-counttable.zeek script. How many types of status codes are there in the given traffic capture?
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/e35fa635-9995-4b0d-9080-9cc124743a7d)
+
