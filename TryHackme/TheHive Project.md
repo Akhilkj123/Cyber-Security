@@ -31,3 +31,44 @@ a) Which open-source platform supports the analysis of observables within TheHiv
 - **org-admin:** manage users and all organisation-level configuration, can create and edit Cases, Tasks, Observables and run Analysers and Responders;
 - **analyst:** can create and edit Cases, Tasks, Observables and run Analysers & Responders;
 - **read-only:** Can only read, Cases, Tasks and Observables details;
+
+a) Which pre-configured account cannot manage any cases?
+- admin
+
+b) Which permission allows a user to create, update or delete observables?
+- manageObservables
+
+c) Which permission allows a user to execute actions?
+- manageActions
+
+- Logged into Thehive using the given credentials
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/038bb61c-0dfb-472f-97a4-b5f6560f0d2d)
+
+## Task 5: Analyst Interface Navigation
+### The following options must be indicated on the case to set different categories and filter options:
+
+- **Severity:** This showcases the level of impact the incident being investigated has on the environment from low to critical levels.
+- **TLP:** The Traffic Light Protocol is a set of designations to ensure that sensitive information is shared with the appropriate audience. The range of colours represents a scale between full disclosure of information (White) and No disclosure/ Restricted (Red). You can find more information about the definitions on the CISA website.
+- **PAP:**  The Permissible Actions Protocol is used to indicate what an analyst can do with the information, whether an attacker can detect the current analysis state or defensive actions in place. It uses a colour scheme similar to TLP and is part of the MISP taxonomies.
+
+- Now we create a new task
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/01c6b4fb-14f8-4e30-8d69-05355cf86f88)
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/b66905c3-8ac4-4fe5-873f-f7b3a027fd45)
+
+- Now we add new observables in it
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/5bc77cd6-728c-4f2e-b5ad-1e647af3632b)
+
+a) Where are the TTPs imported from?
+- MITRE ATT&CK Framework
+
+b) According to the Framework, what type of Detection "Data source" would our investigation be classified under?
+- Network Traffic
+
+c) Upload the pcap file as an observable. What is the flag obtained from https://10.10.117.56//files/flag.html
+
+![image](https://github.com/Akhilkj123/Cyber-Security/assets/65653010/83f507b5-1949-4447-97f0-c0c0bfb4eadd)
+
