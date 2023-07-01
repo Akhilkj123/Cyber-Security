@@ -20,3 +20,14 @@
 - **Custom Dashboards:** Statistics on cases, tasks, observables, metrics and more can be compiled and distributed on dashboards that can be used to generate useful KPIs within an organisation.
 
 - **Built-in MISP Integration:** Another useful integration is with MISP, a threat intelligence platform for sharing, storing and correlating Indicators of Compromise of targeted attacks and other threats. This integration allows analysts to create cases from MISP events, import IOCs or export their own identified indicators to their MISP communities.
+
+a) Which open-source platform supports the analysis of observables within TheHive?
+- Cortex
+
+## Task 4: User Profiles & Permissions
+### The pre-configured user profiles are:
+
+- **admin:** full administrative permissions on the platform; can't manage any Cases or other data related to investigations;
+- **org-admin:** manage users and all organisation-level configuration, can create and edit Cases, Tasks, Observables and run Analysers and Responders;
+- **analyst:** can create and edit Cases, Tasks, Observables and run Analysers & Responders;
+- **read-only:** Can only read, Cases, Tasks and Observables details;
